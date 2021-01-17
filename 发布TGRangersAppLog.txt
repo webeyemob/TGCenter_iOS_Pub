@@ -1,0 +1,3 @@
+RangersAppLog 的 Repo 从 CocoaPods 官网移到了 Bytedance，发布时需要指定 source：
+
+pod spec lint TGCRangersAppLog.podspec --verbose --sources=https://cdn.cocoapods.org/,https://github.com/bytedance/cocoapods_sdk_source_repo.git --skip-import-validation

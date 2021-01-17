@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/webeyemob/TGCenter_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "TGCRangersAppLog_#{spec.version}/LICENSE" }
   spec.author       = "TGCenter"
-  spec.platform     = :ios, "9.0"
+  spec.platform     = :ios, "8.0"
   spec.source       = { :http => "https://github.com/webeyemob/TGCenter_iOS_Pub/raw/master/TGCRangersAppLog/TGCRangersAppLog_#{spec.version}.zip" }
   spec.vendored_frameworks  = "TGCRangersAppLog_#{spec.version}/TGCRangersAppLog.framework"
   
