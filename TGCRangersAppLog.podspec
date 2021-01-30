@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TGCRangersAppLog"
-  spec.version      = "5.4.2.0"
+  spec.version      = "0.5.4.2.1"
   spec.summary      = "RangersAppLog for TGCRangersAppLog."
   spec.homepage     = "https://github.com/webeyemob/TGCenter_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "TGCRangersAppLog_#{spec.version}/LICENSE" }
