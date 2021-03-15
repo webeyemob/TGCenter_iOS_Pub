@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   # s.source     = { :git => 'https://github.com/udesk/UdeskSDK-iOS.git', :tag => s.version.to_s }
   # s.source     = { :git => 'https://github.com/udesk/UdeskSDK-iOS.git', :branch => '5.x' }
   s.source       = { :http => "https://github.com/webeyemob/TGCenter_iOS_Pub/raw/master/TGCUdeskSDK/TGCUdeskSDK_#{s.version}.zip" }
-  s.platform     = :ios, '13.5'
+  s.platform     = :ios, '11.0'
   s.requires_arc = true
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
