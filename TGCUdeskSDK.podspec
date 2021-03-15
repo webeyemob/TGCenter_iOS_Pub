@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
   s.source       = { :http => "https://github.com/webeyemob/TGCenter_iOS_Pub/raw/master/TGCUdeskSDK/TGCUdeskSDK_#{s.version}.zip" }
   s.platform     = :ios, '11.0'
   s.requires_arc = true
-  # s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  # s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   s.subspec 'SDK' do |ss|
     ss.frameworks = 'AVFoundation', 'CoreTelephony', 'SystemConfiguration', 'MobileCoreServices', 'WebKit', 'MapKit','AssetsLibrary','ImageIO','Accelerate','MediaPlayer','Photos','CoreText'
