@@ -8,5 +8,5 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.source       = { :http => "https://github.com/webeyemob/TGCenter_iOS_Pub/raw/master/TGCPrivacy/TGCPrivacy_#{spec.version}.zip" }
   spec.vendored_frameworks  = "TGCPrivacy_#{spec.version}/TGCPrivacy.framework"
-  spec.dependency 'PrivacyPolicy', '1.3'
+  spec.dependency 'PrivacyPolicy'
 end
