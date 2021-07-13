@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TGCPrivacy"
-  spec.version      = "1.6.0"
+  spec.version      = "1.6.1"
   spec.summary      = "PrivacyPolicy for TGCPrivacy."
   spec.homepage     = "https://github.com/webeyemob/TGCenter_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "TGCPrivacy_#{spec.version}/LICENSE" }
