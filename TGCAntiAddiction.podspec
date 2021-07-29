@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TGCAntiAddiction"
-  spec.version      = "1.0.1.0"
+  spec.version      = "1.1.1.0"
   spec.summary      = "Embeded for TGCEmbed."
   spec.homepage     = "https://github.com/webeyemob/TGCenter_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "TGCAntiAddiction_#{spec.version}/LICENSE" }

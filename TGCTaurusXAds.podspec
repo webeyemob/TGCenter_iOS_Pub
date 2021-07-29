@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TGCTaurusXAds"
-  spec.version      = "2.0.3.0"
+  spec.version      = "2.1.2.0"
   spec.summary      = "Umeng for TGCUmeng."
   spec.homepage     = "https://github.com/webeyemob/TGCenter_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "TGCTaurusXAds_#{spec.version}/LICENSE" }

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TGCWeChat"
-  spec.version      = "1.8.7.1.1"
+  spec.version      = "1.8.7.1.2"
   spec.summary      = "WeChat for TGCWeChat."
   spec.homepage     = "https://github.com/webeyemob/TGCenter_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "TGCWeChat_#{spec.version}/LICENSE" }
