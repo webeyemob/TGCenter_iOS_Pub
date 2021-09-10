@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "AntiAddiction"
-  spec.version      = "2.0.0"
+  spec.version      = "2.0.1"
   spec.summary      = "AntiAddiction for TGCenter."
   spec.homepage     = "https://github.com/webeyemob/TGCenter_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "AntiAddiction_#{spec.version}/LICENSE" }
